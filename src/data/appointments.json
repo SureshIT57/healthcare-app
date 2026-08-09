@@ -1,0 +1,28 @@
+{
+  "appointments": [
+    {
+      "id": "a1",
+      "doctorId": "d1",
+      "patientName": "pravin av",
+      "status": "upcoming",
+      "dateLabel": "Tue. 03 Jun 2026",
+      "timeLabel": "9.30 AM",
+      "tokenNumber": "07",
+      "tokenId": "DR20- 2026-06-02-001",
+      "clinicId": "c1",
+      "badgeLabel": "Tomorrow"
+    },
+    {
+      "id": "a2",
+      "doctorId": "d4",
+      "patientName": "pravin av",
+      "status": "completed",
+      "dateLabel": "Mon. 26 May 2026",
+      "timeLabel": "10.00 AM",
+      "tokenNumber": "12",
+      "tokenId": "DR20- 2026-05-26-012",
+      "clinicId": "c2",
+      "badgeLabel": "Completed"
+    }
+  ]
+}

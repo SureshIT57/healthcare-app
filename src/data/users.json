@@ -1,0 +1,19 @@
+{
+  "currentUser": {
+    "id": "u1",
+    "firstName": "pravin",
+    "lastName": "av",
+    "phone": "9876102456",
+    "countryCode": "+91",
+    "email": "pravin@example.com",
+    "dateOfBirth": "1998-06-15",
+    "gender": "Male",
+    "bloodGroup": "O+",
+    "avatar": "user"
+  },
+  "familyMembers": [
+    { "id": "f1", "name": "pravin av", "relation": "You", "isSelf": true, "avatar": "user" },
+    { "id": "f2", "name": "Mother", "relation": "Mother", "avatar": "mother" },
+    { "id": "f3", "name": "Father", "relation": "Father", "avatar": "father" }
+  ]
+}

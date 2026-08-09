@@ -1,0 +1,142 @@
+{
+  "location": "Tambaram",
+  "sections": [
+    {
+      "id": "consult20",
+      "title": "Consult at ₹20",
+      "subtitle": "Consult certified doctors for just ₹20",
+      "feeVariant": "blue"
+    },
+    {
+      "id": "private",
+      "title": "Private Clinics Near You",
+      "subtitle": "Book appointments with nearby verified clinics",
+      "feeVariant": "peach"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Priya Menen",
+      "degree": "MBBS",
+      "specialty": "General Physician",
+      "rating": 4.8,
+      "reviewCount": 1298,
+      "experienceYears": 6,
+      "distanceKm": 1.2,
+      "availableToday": true,
+      "consultationFee": 20,
+      "clinicId": "c1",
+      "sectionId": "consult20",
+      "verified": true,
+      "about": "Dr. Priya Menen is a trusted general physician with over 6 years of clinical experience, providing compassionate care for common illnesses and preventive health.",
+      "expertise": ["Fever", "Cold & Cough", "Headache", "Stomach Pain", "Sore Throat"]
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Arun Kumar",
+      "degree": "MBBS",
+      "specialty": "General Physician",
+      "rating": 4.7,
+      "reviewCount": 892,
+      "experienceYears": 5,
+      "distanceKm": 1.2,
+      "availableToday": true,
+      "consultationFee": 20,
+      "clinicId": "c1",
+      "sectionId": "consult20",
+      "verified": true,
+      "about": "Experienced physician focused on primary care and patient education.",
+      "expertise": ["Fever", "Diabetes", "Hypertension"]
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Vignesh Kumar",
+      "degree": "MBBS",
+      "specialty": "General Physician",
+      "rating": 4.6,
+      "reviewCount": 456,
+      "experienceYears": 8,
+      "distanceKm": 1.5,
+      "availableToday": false,
+      "consultationFee": 300,
+      "clinicId": "c2",
+      "sectionId": "private",
+      "verified": true,
+      "about": "Private clinic physician with expertise in chronic disease management.",
+      "expertise": ["General Checkup", "Fever"]
+    },
+    {
+      "id": "d4",
+      "name": "Dr. Harini Balaji",
+      "degree": "MBBS",
+      "specialty": "General Physician",
+      "rating": 4.9,
+      "reviewCount": 2100,
+      "experienceYears": 10,
+      "distanceKm": 1.2,
+      "availableToday": true,
+      "consultationFee": 300,
+      "clinicId": "c2",
+      "sectionId": "private",
+      "verified": true,
+      "about": "Highly rated physician serving Tambaram and nearby areas.",
+      "expertise": ["Women Health", "Fever", "Cold & Cough"]
+    },
+    {
+      "id": "d5",
+      "name": "Dr. Chandru T",
+      "degree": "MBBS",
+      "specialty": "General Physician",
+      "rating": 4.5,
+      "reviewCount": 320,
+      "experienceYears": 4,
+      "distanceKm": 2.0,
+      "availableToday": true,
+      "consultationFee": 300,
+      "clinicId": "c2",
+      "sectionId": "private",
+      "verified": true,
+      "about": "Dedicated to accessible outpatient care.",
+      "expertise": ["Fever", "Headache"]
+    }
+  ],
+  "clinics": [
+    {
+      "id": "c1",
+      "name": "Arokya Clinic",
+      "address": "Tambaram, Chennai",
+      "city": "Chennai",
+      "hours": "6.00 PM - 9.00PM",
+      "distanceKm": 1.2,
+      "verified": true
+    },
+    {
+      "id": "c2",
+      "name": "City Care Clinic",
+      "address": "Tambaram, Chennai",
+      "city": "Chennai",
+      "hours": "9.00 AM - 8.00PM",
+      "distanceKm": 1.5,
+      "verified": true
+    }
+  ],
+  "dateOptions": [
+    { "id": "d-mon", "label": "Mon 02 Jun" },
+    { "id": "d-tue", "label": "Tue 03 Jun", "active": true },
+    { "id": "d-wed", "label": "Wed 04 Jun" },
+    { "id": "d-thu", "label": "Thu 05 Jun" }
+  ],
+  "slots": [
+    { "id": "s1", "label": "06:00 PM", "available": true },
+    { "id": "s2", "label": "06:30 PM", "available": true },
+    { "id": "s3", "label": "07:00 PM", "available": true },
+    { "id": "s4", "label": "07:30 PM", "available": true },
+    { "id": "s5", "label": "08:00 PM", "available": false },
+    { "id": "s6", "label": "08:30 PM", "available": true }
+  ],
+  "reviews": [
+    { "id": "r1", "initial": "R", "text": "Very friendly and explained everything clearly.", "author": "Rajesh, M" },
+    { "id": "r2", "initial": "M", "text": "Short wait time and professional consultation.", "author": "Meena, F" }
+  ]
+}

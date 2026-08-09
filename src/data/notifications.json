@@ -1,0 +1,18 @@
+{
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Appointment reminder",
+      "body": "Your visit with Dr. Priya Menen is tomorrow at 9:30 AM.",
+      "read": false,
+      "createdAt": "2026-06-02T08:00:00Z"
+    },
+    {
+      "id": "n2",
+      "title": "Payment successful",
+      "body": "₹20 paid for consultation booking.",
+      "read": true,
+      "createdAt": "2026-06-01T14:22:00Z"
+    }
+  ]
+}
